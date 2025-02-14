@@ -1,50 +1,85 @@
-/* kumbh-sans-300 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Kumbh Sans";
   font-style: normal;
   font-weight: 300;
-  src: url("./fonts/kumbh-sans-v22-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/kumbh-sans-v22-latin-300.woff2") format("woff2");
 }
-/* kumbh-sans-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Kumbh Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/kumbh-sans-v22-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/kumbh-sans-v22-latin-700.woff2") format("woff2");
 }
 
-/* space-mono-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/space-mono-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/space-mono-v15-latin-regular.woff2") format("woff2");
 }
-/* space-mono-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/space-mono-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/space-mono-v15-latin-700.woff2") format("woff2");
 }
 
-/* roboto-slab-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/roboto-slab-v34-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/roboto-slab-v34-latin-regular.woff2") format("woff2");
 }
-/* roboto-slab-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/roboto-slab-v34-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/roboto-slab-v34-latin-700.woff2") format("woff2");
+}
+
+:root {
+  /* Colors */
+  --primary-red: #f87070;
+  --primary-blue: #70f3f8;
+  --primary-purple: #db81f8;
+  --primary-light-blue: #d7e0ff;
+  --dark-blue: #1e213f;
+  --white: #ffffff;
+  --light-gray: #eff1fa;
+  --deep-navy: #161932;
+
+  /* Typography */
+  --font-primary: "Kumbh Sans", sans-serif;
+  --font-secondary: "Roboto Slab", serif;
+  --font-monospace: "Space Mono", monospace;
+
+  /* Font Sizes */
+  --h1-size: 10rem; /* 100px */
+  --h2-size: 2.8rem; /* 28px */
+  --h3-size: 1.6rem; /* 16px */
+  --h4-size: 1.3rem; /* 13px */
+  --body1-size: 1.4rem; /* 14px */
+  --body2-size: 1.2rem; /* 12px */
+
+  /* Line Heights */
+  --h1-line-height: 12rem; /* 120px */
+  --h2-line-height: 3.4rem; /* 34px */
+  --h3-line-height: 1.9rem; /* 19px */
+  --h4-line-height: 1.6rem; /* 16px */
+  --body1-line-height: 1.8rem; /* 18px */
+  --body2-line-height: 1.4rem; /* 14px */
+
+  /* Letter Spacing */
+  --h1-spacing: -0.5rem; /* -5px */
+  --h3-spacing: 1.5rem; /* 15px */
+  --h4-spacing: 0.5rem; /* 5px */
 }
