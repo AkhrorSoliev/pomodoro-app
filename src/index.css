@@ -83,3 +83,60 @@
   --h3-spacing: 1.5rem; /* 15px */
   --h4-spacing: 0.5rem; /* 5px */
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--body1-size);
+  line-height: var(--body1-line-height);
+  background-color: var(--dark-blue);
+  color: var(--primary-light-blue);
+}
+
+main {
+  padding-top: 4.8rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 4.7rem;
+}
+
+.aciton-container {
+  background-color: var(--deep-navy);
+  padding: 0.8rem 0.7rem;
+  width: 100%;
+  max-width: 373px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 31.5px;
+  gap: 2.2rem;
+}
+
+.action-container__item {
+  border-radius: 26.5px;
+  padding: 1.6rem 2.6rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--primary-light-blue);
+}
+
+.active {
+  background-color: var(--primary-red);
+  color: var(--dark-blue);
+}
